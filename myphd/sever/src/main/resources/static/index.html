@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="四叶草情侣 App，记录相册、留言、心情、任务和位置共享。">
+    <title>四叶草 - 情侣专属空间</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="四叶草首页">
+            <span class="brand-mark">四</span>
+            <span>四叶草</span>
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+            <a href="#features">功能</a>
+            <a href="#download">下载</a>
+            <a href="#privacy">安全</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Android 1.6.2</p>
+                <h1>给两个人的私密记录空间</h1>
+                <p class="hero-text">相册、留言、心情、任务和位置共享放在同一个地方。少一点切换，多一点陪伴。</p>
+                <div class="hero-actions">
+                    <a class="button primary" href="/app-release.apk" download>下载 APK</a>
+                    <a class="button secondary" href="#features">查看功能</a>
+                </div>
+            </div>
+
+            <div class="phone-stage" aria-hidden="true">
+                <div class="phone">
+                    <div class="phone-top"></div>
+                    <div class="app-card cover">
+                        <span class="small-label">Today</span>
+                        <strong>在一起 128 天</strong>
+                    </div>
+                    <div class="app-card photo">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="app-row">
+                        <div>心情</div>
+                        <strong>开心</strong>
+                    </div>
+                    <div class="app-row muted">
+                        <div>任务</div>
+                        <strong>3 / 5</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Core Features</p>
+                <h2>当前 App 已包含的功能</h2>
+            </div>
+            <div class="feature-grid">
+                <article>
+                    <span>01</span>
+                    <h3>情侣绑定</h3>
+                    <p>注册后创建邀请码，另一半输入邀请码加入，形成两个人的独立空间。</p>
+                </article>
+                <article>
+                    <span>02</span>
+                    <h3>照片相册</h3>
+                    <p>上传共同回忆，支持照片列表、点赞和删除。</p>
+                </article>
+                <article>
+                    <span>03</span>
+                    <h3>留言与心情</h3>
+                    <p>写下想说的话，记录当天心情，也能回看历史状态。</p>
+                </article>
+                <article>
+                    <span>04</span>
+                    <h3>任务与位置</h3>
+                    <p>一起维护待办清单，并在双方允许时共享当前位置。</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <div>
+                <p class="eyebrow">Install</p>
+                <h2>下载 Android 安装包</h2>
+                <p>当前安装包约 12 MB，要求 Android 7.0 或以上。首次安装 APK 时，系统可能会要求允许“未知来源”。</p>
+            </div>
+            <div class="download-panel">
+                <div class="apk-icon">APK</div>
+                <div>
+                    <h3>四叶草 Android</h3>
+                    <p>版本 1.6.2 · minSdk 24</p>
+                </div>
+                <a class="button primary" href="/app-release.apk" download>立即下载</a>
+            </div>
+        </section>
+
+        <section id="privacy" class="section split">
+            <div class="section-heading">
+                <p class="eyebrow">Security Notes</p>
+                <h2>上线前建议先处理安全配置</h2>
+            </div>
+            <ul class="check-list">
+                <li>把数据库密码、邮箱授权码移到环境变量。</li>
+                <li>上线使用 HTTPS，关闭 Android 明文 HTTP。</li>
+                <li>给 API 增加登录鉴权，避免只依赖 userId 和 coupleId。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>四叶草</span>
+        <span>情侣专属空间</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

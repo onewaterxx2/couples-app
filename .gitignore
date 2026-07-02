@@ -1,0 +1,55 @@
+# 敏感配置文件
+application-prod.properties
+*.env
+
+# 编译输出
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# IDE配置
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.gradle/
+.settings/
+.classpath
+.project
+
+# 日志文件
+*.log
+logs/
+
+# 上传文件目录
+uploads/
+myphd/uploads/
+
+# Android编译产物
+myp/.gradle/
+myp/build/
+myp/app/build/
+myp/local.properties
+myp/*.apk
+myp/*.aab
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 数据库文件
+*.db
+*.sqlite
+
+# Node modules (如果有前端项目)
+node_modules/
+npm-debug.log*
+
+# APK文件（太大，不建议上传）
+*.apk
