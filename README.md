@@ -17,7 +17,7 @@
 
 ## 🎯 在线演示
 
-访问 [官网首页](http://your-domain.com)（部署后填写）
+访问 [官网首页](http://onewater.work:8080) 查看项目介绍和下载APK
 
 ## 🏗️ 技术栈
 
@@ -52,7 +52,7 @@
 ### 1️⃣ 克隆项目
 
 ```bash
-git clone https://github.com/your-username/couples-app.git
+git clone https://github.com/onewaterxx2/couples-app.git
 cd couples-app
 ```
 
@@ -265,8 +265,9 @@ couples-app/
 
 ## 👨‍💻 作者
 
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your-email@example.com
+- GitHub: [@onewaterxx2](https://github.com/onewaterxx2)
+- Email: onewaterxx2@gmail.com
+- 官网: [onewater.work:8080](http://onewater.work:8080)
 
 ## 🙏 致谢
 
@@ -278,8 +279,9 @@ couples-app/
 
 如果有任何问题或建议，欢迎通过以下方式联系：
 
-- 提交 [Issue](https://github.com/your-username/couples-app/issues)
-- 发送邮件到：your-email@example.com
+- 提交 [Issue](https://github.com/onewaterxx2/couples-app/issues)
+- 发送邮件到：onewaterxx2@gmail.com
+- 访问官网：[onewater.work:8080](http://onewater.work:8080)
 
 ---
 
